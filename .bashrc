@@ -22,3 +22,8 @@ fi
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
+
+if [ -f /etc/profile.d/cdargs.sh ]
+then
+        source /etc/profile.d/cdargs.sh
+fi
